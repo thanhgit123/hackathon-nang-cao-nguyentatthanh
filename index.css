@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    border: 1px solid black;
+    width: 100vh;
+    height: 600px;  
+    border-radius: 10px;
+   
+}
+#divOne{
+    border: none;
+    height: 100px;
+     padding: 10px;
+     display: flex;
+     justify-content: center;
+     
+}
+#btn1{
+    width: 100px;
+    height: 70px;  
+}
+#btn2{
+    width: 100px;
+    height: 70px;  
+}
+#btn3{
+    width: 100px;
+    height: 70px;  
+}
+#btn4{
+    width: 100px;
+    height: 70px;  
+}
+#btn5{
+    width: 100px;
+    height: 70px;  
+}
+
+button{
+    border: none;
+    border-radius:5%;
+    margin: 0 10px;
+    width: 150px;
+    cursor: pointer;
+}
+#divTwo{
+    border: none;
+    height: 300px;
+    padding: 20px; 
+}
+#divThree{
+    border: none;
+    height: 100px;
+    width: 200px;
+    
+}
+#divFour{
+    border: none;
+    height: 100px;
+    width: 200px;
+}
+#divFive{
+    border: none;
+    display:flex;
+    height: 200px;
+    width: 500px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+label{
+    font-size: 30px;
+}
+#inputOne{
+width:80vh;
+height: 50px;
+border-radius: 10px;
+}
+#inputTwo{
+    width: 200px;
+    height: 50px;
+}
+#inputThree{
+    width: 300px;
+    height: 50px;
+}
+#onlyBtn{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(173, 173, 217);
+    border-radius: 10px;
+}
+table{
+    border-collapse: collapse;
+    width: 200vh;
+    height: 100px;
+}   
+
+

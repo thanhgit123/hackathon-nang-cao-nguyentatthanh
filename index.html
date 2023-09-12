@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+   
+    <div>
+        <h1>Select Card</h1>
+        <div id="divOne">
+            <button onclick="selectImage('anh 1.jpg')"> <img src="image/anh 1.jpg" id="btn1"></button>
+            <button onclick="selectImage('anh 2.jpg')"> <img src="image/anh 2.jpg" id="btn2"></button>
+            <button onclick="selectImage('anh 3.jpg')"> <img src="image/anh 3.jpg" id="btn3"></button>
+            <button onclick="selectImage('anh 4.jpg')"> <img src="image/anh 4.jpg" id="btn4"></button>
+            <button onclick="selectImage('anh 5.jpg')"> <img src="image/anh 5.jpg" id="btn5"></button>
+        </div>
+        <div id="divTwo">
+            <label for="">Card Number</label><br>
+            <input type="text" id="inputOne"><br><br>
+
+            <div id="divFive">
+                <div id="divThree">
+                    <label for="">Expiry Date</label><br><br>
+                    <input type="month" id="inputTwo"><br>
+
+                </div>
+                <div id="divFour">
+                    <label for="">CVC/CVV</label><br><br>
+                    <input type="password" id="inputThree"><br>
+                </div>
+
+            </div>
+
+            <input type="hidden" id="selectedImage">
+
+            <button id="onlyBtn" onclick="saveCard()">Save</button>
+
+        </div>
+    </div><br><br><br>
+
+    <table border="1px" cellpadding="15px" cellspacing="5px">
+        <thead>
+            <tr>
+                <th>Card Img</th>
+                <th>Card Number</th>
+                <th>Expiry Date</th>
+                <th>CVV</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="body">
+        </tbody>
+    </table>
+
+
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
